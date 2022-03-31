@@ -1,6 +1,14 @@
 import React, {useEffect, useState} from "react";
+// Componentes
+import { Message } from './Message';
 import './effects.css';
 
+/*
+// No se pueden usar los hooks de manera condicional, es una mala práctica y React no lo va a aceptar.
+if ( true ) {
+  const [ state, setState ] = useState(0);
+}
+*/
 export const SimpleForm = () => {
   const [ formState, setFormState ] = useState({
     name:'',
@@ -10,10 +18,10 @@ export const SimpleForm = () => {
   const { name, email } = formState;
 
   useEffect( () => {
-    console.log('Hey');
+    //console.log('Hey');
   },[]);
   useEffect( () => {
-    console.log('formState Cambió');
+    //console.log('formState Cambió');
   },[ formState ]);
   /*
   // El useEffect se dispara cada vez que cambia el estado de la aplicación. En este caso, si queremos prevenir ese comportamiento, tenemos que enviar un arreglo vacio como segundo parametro
@@ -61,6 +69,8 @@ export const SimpleForm = () => {
           onChange={ handleInputChange }
         />
       </div>
+
+      { name === '123' && <Message /> }
     </>
   )
 }
