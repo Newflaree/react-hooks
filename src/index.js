@@ -6,9 +6,10 @@ import ReactDOM from 'react-dom';
 //import { CounterApp } from './components/01-useState/CounterApp';
 //import { CounterCustom } from './components/01-useState/CounterCustom';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
-import { FormCustomHook } from './components/02-useEffect/FormCustomHook';
+//import { FormCustomHook } from './components/02-useEffect/FormCustomHook';
+import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 
 ReactDOM.render(
-  <FormCustomHook />,
+  <MultipleCustomHooks />,
   document.getElementById('root')
 );
