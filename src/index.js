@@ -8,9 +8,10 @@ import ReactDOM from 'react-dom';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { FormCustomHook } from './components/02-useEffect/FormCustomHook';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
-import { FocusScreen } from './components/04-useRef/FocusScreen';
+//import { FocusScreen } from './components/04-useRef/FocusScreen';
+import { RealExamRef } from './components/04-useRef/RealExamRef';
 
 ReactDOM.render(
-  <FocusScreen />,
+  <RealExamRef />,
   document.getElementById('root')
 );
