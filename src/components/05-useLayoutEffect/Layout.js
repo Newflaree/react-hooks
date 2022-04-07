@@ -23,7 +23,7 @@ export const Layout = () => {
 
       <blockquote className='blockquote text-end'>
         <p 
-          ref={ pTag }
+          ref = { pTag }
           className='mb-2'
         >
           { quote }
