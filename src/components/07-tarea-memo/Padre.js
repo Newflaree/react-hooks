@@ -15,7 +15,7 @@ export const Padre = () => {
     */
 
   const incrementar = useCallback( (num) => {
-        setValor( v => v + num )
+        setValor( v => v + num );
   }, [ setValor ] )
 
 

@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 // App
@@ -20,3 +21,6 @@ ReactDOM.render(
   <Padre />,
   document.getElementById('root')
 );
+*/
+
+import './components/08-useReducer/intro-reducer';
